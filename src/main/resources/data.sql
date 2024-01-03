@@ -1,0 +1,5 @@
+INSERT INTO users (id, username) VALUES (1, 'Adam')
+INSERT INTO users (id, username) VALUES (2, 'Bob')
+INSERT INTO users (id, username) VALUES (3, 'Chloe')
+INSERT INTO users (id, username) VALUES (4, 'David')
+INSERT INTO users (id, username) VALUES (5, 'Emma')
