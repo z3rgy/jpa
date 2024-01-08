@@ -1,5 +1,6 @@
-INSERT INTO users (id, username) VALUES (1, 'Adam')
-INSERT INTO users (id, username) VALUES (2, 'Bob')
-INSERT INTO users (id, username) VALUES (3, 'Chloe')
-INSERT INTO users (id, username) VALUES (4, 'David')
-INSERT INTO users (id, username) VALUES (5, 'Emma')
+INSERT INTO users (user_no, username, age) VALUES (1, 'Kim', 30)
+INSERT INTO users (user_no,username, age) VALUES (2, 'Lee', 15)
+INSERT INTO users (user_no,username, age) VALUES (3, 'Park', 87)
+INSERT INTO users (user_no,username, age) VALUES (4, 'Song', 21)
+INSERT INTO users (user_no,username, age) VALUES (5, 'Yun', 24)
+

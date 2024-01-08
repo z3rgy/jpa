@@ -13,11 +13,9 @@ public class UserService {
 
     private final UserRepository userRepository;
 
-    public List<Users> getUserService(String username){
-        if(username.isBlank()) // name 파라미터가 Null이면 전체 user를 리턴
-            return userRepository.findAll();
-        else  // name 이 존재를 하면, Like 쿼리로 2개만 리턴
-            return userRepository.findByUsername(username);
+    public Users getUserService(Long id){
+
+            return userRepository.findById(id).get();
     }
 
 }
