@@ -18,7 +18,7 @@ import java.util.Date;
 public class Consumption {
 
     @Id
-    @Column(name = "consumption_id")
+//    @Column(name = "consumption_id")
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 

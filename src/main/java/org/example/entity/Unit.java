@@ -14,7 +14,7 @@ import java.util.List;
 public class Unit {
 
     @Id
-    @Column(name = "unit_id")
+//    @Column(name = "unit_id")
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
